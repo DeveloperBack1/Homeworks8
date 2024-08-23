@@ -7,8 +7,8 @@ public class TranslatorfromFrToEng extends Translator {
     }
 
     @Override
-    void translate() {
-        System.out.println("Kann von französisch auf Englisch übersetzen");
+    public String translate(String str) {
+        return "Kann von französisch auf Englisch übersetzen: "+str;
     }
 
     @Override

@@ -3,18 +3,21 @@ package homework4;
 public class RunTranslator {
     public static void main(String[] args) {
 
-TranslatorFromEngToRus translator = new TranslatorFromEngToRus("Robert", 35, "Male");
+        TranslatorFromEngToRus translator =
+                new TranslatorFromEngToRus("Robert", 35, "Male");
 
-translator.infoTranslator();
-translator.translate();
+        translator.infoTranslator();
+        System.out.println(translator.translate(" What is your name?\n"));
 
-TranslatorfromFrToEng translatorfromFrToEng = new TranslatorfromFrToEng("Anna", 32, "Female");
+        TranslatorfromFrToEng translatorfromFrToEng =
+                new TranslatorfromFrToEng("Anna", 32, "Female");
 
-translatorfromFrToEng.infoTranslator();
-translatorfromFrToEng.translate();
+        translatorfromFrToEng.infoTranslator();
+        System.out.println(translatorfromFrToEng.translate(" Quel est votre nom?\n"));
 
-TranslatorFromRuToEng translatorFromRuToEng = new TranslatorFromRuToEng("Алексей", 30, "Male");
-translatorFromRuToEng.infoTranslator();
-translatorFromRuToEng.translate();
+        TranslatorFromRuToEng translatorFromRuToEng =
+                new TranslatorFromRuToEng("Алексей", 30, "Male");
+        translatorFromRuToEng.infoTranslator();
+        System.out.println(translatorFromRuToEng.translate(" Как тебя зовут?"));
     }
 }

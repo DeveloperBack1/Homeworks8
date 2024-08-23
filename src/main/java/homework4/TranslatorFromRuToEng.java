@@ -7,8 +7,8 @@ public class TranslatorFromRuToEng extends Translator {
     }
 
     @Override
-    void translate() {
-        System.out.println("Übersetzer kann von Russisch auf Englisch übersetzen");
+    public String translate(String str) {
+        return "Übersetzer kann von Russisch auf Englisch übersetzen: "+str;
     }
 
     @Override

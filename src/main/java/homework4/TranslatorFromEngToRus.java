@@ -1,14 +1,14 @@
 package homework4;
 
-public class TranslatorFromEngToRus extends Translator{
+public class TranslatorFromEngToRus extends Translator {
 
     public TranslatorFromEngToRus(String name, int age, String gender) {
         super(name, age, gender);
     }
 
     @Override
-    void translate() {
-        System.out.println("Kann von Englisch auf Russisch übersetzen");
+    public String translate(String str) {
+        return "Kann von Englisch ins Russisch übersetzen: " + str;
     }
 
     @Override
