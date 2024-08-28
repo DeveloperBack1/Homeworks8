@@ -13,6 +13,7 @@ public class TranslatorFromRuToEng extends Translator {
 
     @Override
     public void infoTranslator() {
+
         super.infoTranslator();
     }
 }

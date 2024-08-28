@@ -13,6 +13,7 @@ public class TranslatorfromFrToEng extends Translator {
 
     @Override
     public void infoTranslator() {
+
         super.infoTranslator();
     }
 }

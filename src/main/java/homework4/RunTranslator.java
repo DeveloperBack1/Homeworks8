@@ -16,6 +16,7 @@ public class RunTranslator {
         System.out.println(translatorfromFrToEng.translate(" Quel est votre nom?\n"));
 
         TranslatorFromRuToEng translatorFromRuToEng =
+
                 new TranslatorFromRuToEng("Алексей", 30, "Male");
         translatorFromRuToEng.infoTranslator();
         System.out.println(translatorFromRuToEng.translate(" Как тебя зовут?"));

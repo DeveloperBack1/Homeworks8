@@ -23,6 +23,7 @@ public abstract class Translator {
 
     public abstract String translate(String str);
 
+
     public void infoTranslator() {
         System.out.println("Name: " + name + " Age: " + age + " Gender: " + gender);
     }
