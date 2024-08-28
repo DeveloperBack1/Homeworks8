@@ -8,7 +8,7 @@ public class Ship implements Repairable, CargoTransportable, Swimmable{
 
     @Override
     public void repair() {
-        System.out.println("Das Schiff  wird repariert werden!");
+        System.out.println("Das Schiff  wird repariert werden!!");
     }
 
 

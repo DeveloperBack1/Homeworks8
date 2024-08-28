@@ -19,5 +19,6 @@ public class Truck implements Repairable, CargoTransportable, Roadmovable {
     @Override
     public void transportationCargoes() {
         System.out.println("Der LKW befördert regelmäßig Lasten!");
+
     }
 }

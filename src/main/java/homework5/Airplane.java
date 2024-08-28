@@ -23,6 +23,6 @@ public class Airplane implements Repairable, PassengerTransportable, CargoTransp
 
     @Override
     public void fly() {
-        System.out.println("Das Flugzeug fliegt!");
+        System.out.println("Das Flugzeug fliegt!!");
     }
 }

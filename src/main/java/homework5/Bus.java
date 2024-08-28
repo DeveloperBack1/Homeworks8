@@ -18,6 +18,6 @@ public class Bus implements Repairable, PassengerTransportable, Roadmovable {
 
     @Override
     public void movementRoad() {
-        System.out.println("Der Bus ist auf den Strassen unterwegs!");
+        System.out.println("Der Bus ist auf den Strassen unterwegs!!");
     }
 }
